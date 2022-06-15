@@ -1,0 +1,67 @@
+.Todo {
+    background-color: rgb(241, 241, 245);
+}
+
+.todoAddForm{
+   height: 36px;
+   display: flex;
+   align-items: center;
+
+}
+.Todo input {
+    height: 30px;
+    font-size: 20px;
+    border: none;
+    border-top: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.Todo .add {
+    height: 36px;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    border: none;
+    background-color: gray;
+}
+
+.itemBlock{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.itemBlockInfo{
+    width: 85%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.itemBlockInfo p {
+    margin-left: 13px;
+    font-size: 20px;
+}
+
+.todoFooter {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.todoFooter button{
+    border: none;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 16px;
+    width: 45%;
+}
+
+.todoFooter span{
+    font-size: 18px;
+}
